@@ -1,5 +1,10 @@
 
 const schema = {
+    'Id':
+     {
+         prop: 'categoryAR',
+         type: String 
+    },
     'Category-AR':
      {
          prop: 'categoryAR',
