@@ -8,7 +8,7 @@ const get_products = (req, res) => {
       .then(({ rows, errors }) => {
         if (errors.length === 0) {
           const filteredProducts = rows.map(row => ({
-            Id: row.Id,
+            id: row.id,
             productName: lang === 'AR' ? row.productNameAR : row.productNameEN,
             description: lang === 'AR' ? row.descriptionAR : row.descriptionEN,
             category: lang === 'AR' ? row.categoryAR : row.categoryEN,
