@@ -1,8 +1,8 @@
 
 const schema = {
-    'Id':
+    'id':
      {
-         prop: 'Id',
+         prop: 'id',
          type: String 
     },
     'Category-AR':
