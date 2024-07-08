@@ -2,7 +2,7 @@
 const schema = {
     'Id':
      {
-         prop: 'categoryAR',
+         prop: 'Id',
          type: String 
     },
     'Category-AR':
